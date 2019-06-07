@@ -1,6 +1,6 @@
 {
   "name": "@nerd-coder/strapi-provider-upload-digitalocean",
-  "version": "3.0.0-alpha.18.1",
+  "version": "3.0.0-beta.2",
   "description": "Digital ocean spaces provider for Strapi upload plugin",
   "homepage": "http://strapi.io",
   "keywords": [
