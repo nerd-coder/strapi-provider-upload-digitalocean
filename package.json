@@ -20,27 +20,33 @@
     "isProvider": true
   },
   "author": {
-    "email": "adam@qusion.com",
-    "name": "Qusion s.r.o.",
-    "url": "https://qusion.com"
+    "email": "me@toan.io",
+    "name": "Toan",
+    "url": "https://toan.io"
   },
   "maintainers": [
     {
-      "name": "Adam Zikmund",
-      "email": "adam@qusion.com",
-      "url": "https://qusion.com"
+      "name": "me@toan.io",
+      "email": "me@toan.io",
+      "url": "https://toan.io"
     }
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/AdamZikmund/strapi-provider-upload-digitalocean.git"
+    "url": "git@github.com:nerd-coder/strapi-provider-upload-digitalocean.git"
   },
   "bugs": {
-    "url": "https://github.com/AdamZikmund/strapi-provider-upload-digitalocean/issues"
+    "url": "https://github.com/nerd-coder/strapi-provider-upload-digitalocean/issues"
   },
   "engines": {
     "node": ">= 10.0.0",
     "npm": ">= 6.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "release-it": "*"
+  },
+  "scripts": {
+    "release": "release-it"
+  }
 }
